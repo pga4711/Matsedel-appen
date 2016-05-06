@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70C01341BF0DD0200C53E0F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A70C01331BF0DD0200C53E0F /* User.m */; };
+		A70C01371BF0DD6000C53E0F /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = A70C01361BF0DD6000C53E0F /* Recipe.m */; };
+		A70C013A1BF0DD7900C53E0F /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = A70C01391BF0DD7900C53E0F /* Ingredient.m */; };
+		A7521D961BE76120006A6E15 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7521D951BE76120006A6E15 /* View.xib */; };
+		A757059F1C0C74D800A6B0E5 /* vegetables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A757059E1C0C74D800A6B0E5 /* vegetables.jpg */; };
+		A75F94D41C1191E400C7A92A /* TempSignIn2.png in Resources */ = {isa = PBXBuildFile; fileRef = A75F94D31C1191E300C7A92A /* TempSignIn2.png */; };
+		A767A8C91BCFD9220009F5EE /* WeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A767A8C81BCFD9220009F5EE /* WeekViewController.m */; };
+		A77BE8651BCBE8420040AB2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BE8641BCBE8420040AB2B /* main.m */; };
+		A77BE8681BCBE8420040AB2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BE8671BCBE8420040AB2B /* AppDelegate.m */; };
+		A77BE86B1BCBE8420040AB2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BE86A1BCBE8420040AB2B /* ViewController.m */; };
+		A77BE86E1BCBE8420040AB2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77BE86C1BCBE8420040AB2B /* Main.storyboard */; };
+		A77BE8701BCBE8420040AB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77BE86F1BCBE8420040AB2B /* Assets.xcassets */; };
+		A77BE8731BCBE8420040AB2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77BE8711BCBE8420040AB2B /* LaunchScreen.storyboard */; };
+		A77BE87E1BCBE8420040AB2B /* MatsedelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BE87D1BCBE8420040AB2B /* MatsedelTests.m */; };
+		A77BE8891BCBE8420040AB2B /* MatsedelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BE8881BCBE8420040AB2B /* MatsedelUITests.m */; };
+		A77BE8991BCBF1B20040AB2B /* TempSignIn.png in Resources */ = {isa = PBXBuildFile; fileRef = A77BE8981BCBF1B20040AB2B /* TempSignIn.png */; };
+		A7B184621C0CA39800EAEBF3 /* shopping_cart_light_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B184611C0CA39800EAEBF3 /* shopping_cart_light_orange.png */; };
+		A7B184651C0DA6E800EAEBF3 /* browse_right.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B184631C0DA6E800EAEBF3 /* browse_right.png */; };
+		A7B184661C0DA6E800EAEBF3 /* browse_left.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B184641C0DA6E800EAEBF3 /* browse_left.png */; };
+		A7FE1EA51BF38C8800F80F6E /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FE1EA41BF38C8800F80F6E /* UserManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A77BE87A1BCBE8420040AB2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77BE8581BCBE8420040AB2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77BE85F1BCBE8420040AB2B;
+			remoteInfo = Matsedel;
+		};
+		A77BE8851BCBE8420040AB2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77BE8581BCBE8420040AB2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77BE85F1BCBE8420040AB2B;
+			remoteInfo = Matsedel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A70C01321BF0DD0200C53E0F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A70C01331BF0DD0200C53E0F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A70C01351BF0DD6000C53E0F /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		A70C01361BF0DD6000C53E0F /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		A70C01381BF0DD7900C53E0F /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		A70C01391BF0DD7900C53E0F /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		A7521D951BE76120006A6E15 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		A757059E1C0C74D800A6B0E5 /* vegetables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetables.jpg; sourceTree = "<group>"; };
+		A75F94D31C1191E300C7A92A /* TempSignIn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempSignIn2.png; sourceTree = "<group>"; };
+		A767A8C71BCFD9220009F5EE /* WeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekViewController.h; sourceTree = "<group>"; };
+		A767A8C81BCFD9220009F5EE /* WeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekViewController.m; sourceTree = "<group>"; };
+		A77BE8601BCBE8420040AB2B /* Matsedel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matsedel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77BE8641BCBE8420040AB2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A77BE8661BCBE8420040AB2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A77BE8671BCBE8420040AB2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A77BE8691BCBE8420040AB2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A77BE86A1BCBE8420040AB2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A77BE86D1BCBE8420040AB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A77BE86F1BCBE8420040AB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A77BE8721BCBE8420040AB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A77BE8741BCBE8420040AB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77BE8791BCBE8420040AB2B /* MatsedelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatsedelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77BE87D1BCBE8420040AB2B /* MatsedelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatsedelTests.m; sourceTree = "<group>"; };
+		A77BE87F1BCBE8420040AB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77BE8841BCBE8420040AB2B /* MatsedelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatsedelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77BE8881BCBE8420040AB2B /* MatsedelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatsedelUITests.m; sourceTree = "<group>"; };
+		A77BE88A1BCBE8420040AB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77BE8981BCBF1B20040AB2B /* TempSignIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempSignIn.png; sourceTree = "<group>"; };
+		A7B184611C0CA39800EAEBF3 /* shopping_cart_light_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping_cart_light_orange.png; sourceTree = "<group>"; };
+		A7B184631C0DA6E800EAEBF3 /* browse_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browse_right.png; sourceTree = "<group>"; };
+		A7B184641C0DA6E800EAEBF3 /* browse_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browse_left.png; sourceTree = "<group>"; };
+		A7FE1EA31BF38C8800F80F6E /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		A7FE1EA41BF38C8800F80F6E /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77BE85D1BCBE8420040AB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BE8761BCBE8420040AB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BE8811BCBE8420040AB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70C01311BF0DC8500C53E0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A70C01381BF0DD7900C53E0F /* Ingredient.h */,
+				A70C01391BF0DD7900C53E0F /* Ingredient.m */,
+				A70C01321BF0DD0200C53E0F /* User.h */,
+				A70C01331BF0DD0200C53E0F /* User.m */,
+				A70C01351BF0DD6000C53E0F /* Recipe.h */,
+				A70C01361BF0DD6000C53E0F /* Recipe.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A77BE8571BCBE8420040AB2B = {
+			isa = PBXGroup;
+			children = (
+				A7521D951BE76120006A6E15 /* View.xib */,
+				A77BE8621BCBE8420040AB2B /* Matsedel */,
+				A77BE87C1BCBE8420040AB2B /* MatsedelTests */,
+				A77BE8871BCBE8420040AB2B /* MatsedelUITests */,
+				A77BE8611BCBE8420040AB2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77BE8611BCBE8420040AB2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77BE8601BCBE8420040AB2B /* Matsedel.app */,
+				A77BE8791BCBE8420040AB2B /* MatsedelTests.xctest */,
+				A77BE8841BCBE8420040AB2B /* MatsedelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77BE8621BCBE8420040AB2B /* Matsedel */ = {
+			isa = PBXGroup;
+			children = (
+				A70C01311BF0DC8500C53E0F /* Model */,
+				A757059E1C0C74D800A6B0E5 /* vegetables.jpg */,
+				A77BE8981BCBF1B20040AB2B /* TempSignIn.png */,
+				A75F94D31C1191E300C7A92A /* TempSignIn2.png */,
+				A7B184611C0CA39800EAEBF3 /* shopping_cart_light_orange.png */,
+				A7B184631C0DA6E800EAEBF3 /* browse_right.png */,
+				A7B184641C0DA6E800EAEBF3 /* browse_left.png */,
+				A77BE8661BCBE8420040AB2B /* AppDelegate.h */,
+				A77BE8671BCBE8420040AB2B /* AppDelegate.m */,
+				A77BE8691BCBE8420040AB2B /* ViewController.h */,
+				A77BE86A1BCBE8420040AB2B /* ViewController.m */,
+				A767A8C71BCFD9220009F5EE /* WeekViewController.h */,
+				A767A8C81BCFD9220009F5EE /* WeekViewController.m */,
+				A77BE86C1BCBE8420040AB2B /* Main.storyboard */,
+				A77BE86F1BCBE8420040AB2B /* Assets.xcassets */,
+				A77BE8711BCBE8420040AB2B /* LaunchScreen.storyboard */,
+				A77BE8741BCBE8420040AB2B /* Info.plist */,
+				A77BE8631BCBE8420040AB2B /* Supporting Files */,
+				A7FE1EA31BF38C8800F80F6E /* UserManager.h */,
+				A7FE1EA41BF38C8800F80F6E /* UserManager.m */,
+			);
+			path = Matsedel;
+			sourceTree = "<group>";
+		};
+		A77BE8631BCBE8420040AB2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77BE8641BCBE8420040AB2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A77BE87C1BCBE8420040AB2B /* MatsedelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A77BE87D1BCBE8420040AB2B /* MatsedelTests.m */,
+				A77BE87F1BCBE8420040AB2B /* Info.plist */,
+			);
+			path = MatsedelTests;
+			sourceTree = "<group>";
+		};
+		A77BE8871BCBE8420040AB2B /* MatsedelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A77BE8881BCBE8420040AB2B /* MatsedelUITests.m */,
+				A77BE88A1BCBE8420040AB2B /* Info.plist */,
+			);
+			path = MatsedelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77BE85F1BCBE8420040AB2B /* Matsedel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77BE88D1BCBE8420040AB2B /* Build configuration list for PBXNativeTarget "Matsedel" */;
+			buildPhases = (
+				A77BE85C1BCBE8420040AB2B /* Sources */,
+				A77BE85D1BCBE8420040AB2B /* Frameworks */,
+				A77BE85E1BCBE8420040AB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matsedel;
+			productName = Matsedel;
+			productReference = A77BE8601BCBE8420040AB2B /* Matsedel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A77BE8781BCBE8420040AB2B /* MatsedelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77BE8901BCBE8420040AB2B /* Build configuration list for PBXNativeTarget "MatsedelTests" */;
+			buildPhases = (
+				A77BE8751BCBE8420040AB2B /* Sources */,
+				A77BE8761BCBE8420040AB2B /* Frameworks */,
+				A77BE8771BCBE8420040AB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77BE87B1BCBE8420040AB2B /* PBXTargetDependency */,
+			);
+			name = MatsedelTests;
+			productName = MatsedelTests;
+			productReference = A77BE8791BCBE8420040AB2B /* MatsedelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A77BE8831BCBE8420040AB2B /* MatsedelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77BE8931BCBE8420040AB2B /* Build configuration list for PBXNativeTarget "MatsedelUITests" */;
+			buildPhases = (
+				A77BE8801BCBE8420040AB2B /* Sources */,
+				A77BE8811BCBE8420040AB2B /* Frameworks */,
+				A77BE8821BCBE8420040AB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77BE8861BCBE8420040AB2B /* PBXTargetDependency */,
+			);
+			name = MatsedelUITests;
+			productName = MatsedelUITests;
+			productReference = A77BE8841BCBE8420040AB2B /* MatsedelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77BE8581BCBE8420040AB2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Skäggbyrån Ekonomiska förening";
+				TargetAttributes = {
+					A77BE85F1BCBE8420040AB2B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2VUNAB2AS7;
+					};
+					A77BE8781BCBE8420040AB2B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A77BE85F1BCBE8420040AB2B;
+					};
+					A77BE8831BCBE8420040AB2B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A77BE85F1BCBE8420040AB2B;
+					};
+				};
+			};
+			buildConfigurationList = A77BE85B1BCBE8420040AB2B /* Build configuration list for PBXProject "Matsedel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A77BE8571BCBE8420040AB2B;
+			productRefGroup = A77BE8611BCBE8420040AB2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77BE85F1BCBE8420040AB2B /* Matsedel */,
+				A77BE8781BCBE8420040AB2B /* MatsedelTests */,
+				A77BE8831BCBE8420040AB2B /* MatsedelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77BE85E1BCBE8420040AB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B184661C0DA6E800EAEBF3 /* browse_left.png in Resources */,
+				A7B184651C0DA6E800EAEBF3 /* browse_right.png in Resources */,
+				A757059F1C0C74D800A6B0E5 /* vegetables.jpg in Resources */,
+				A77BE8731BCBE8420040AB2B /* LaunchScreen.storyboard in Resources */,
+				A75F94D41C1191E400C7A92A /* TempSignIn2.png in Resources */,
+				A77BE8701BCBE8420040AB2B /* Assets.xcassets in Resources */,
+				A7B184621C0CA39800EAEBF3 /* shopping_cart_light_orange.png in Resources */,
+				A77BE86E1BCBE8420040AB2B /* Main.storyboard in Resources */,
+				A7521D961BE76120006A6E15 /* View.xib in Resources */,
+				A77BE8991BCBF1B20040AB2B /* TempSignIn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BE8771BCBE8420040AB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BE8821BCBE8420040AB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77BE85C1BCBE8420040AB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70C013A1BF0DD7900C53E0F /* Ingredient.m in Sources */,
+				A7FE1EA51BF38C8800F80F6E /* UserManager.m in Sources */,
+				A77BE86B1BCBE8420040AB2B /* ViewController.m in Sources */,
+				A70C01371BF0DD6000C53E0F /* Recipe.m in Sources */,
+				A77BE8681BCBE8420040AB2B /* AppDelegate.m in Sources */,
+				A70C01341BF0DD0200C53E0F /* User.m in Sources */,
+				A767A8C91BCFD9220009F5EE /* WeekViewController.m in Sources */,
+				A77BE8651BCBE8420040AB2B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BE8751BCBE8420040AB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77BE87E1BCBE8420040AB2B /* MatsedelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BE8801BCBE8420040AB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77BE8891BCBE8420040AB2B /* MatsedelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A77BE87B1BCBE8420040AB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77BE85F1BCBE8420040AB2B /* Matsedel */;
+			targetProxy = A77BE87A1BCBE8420040AB2B /* PBXContainerItemProxy */;
+		};
+		A77BE8861BCBE8420040AB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77BE85F1BCBE8420040AB2B /* Matsedel */;
+			targetProxy = A77BE8851BCBE8420040AB2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A77BE86C1BCBE8420040AB2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77BE86D1BCBE8420040AB2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A77BE8711BCBE8420040AB2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77BE8721BCBE8420040AB2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77BE88B1BCBE8420040AB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A77BE88C1BCBE8420040AB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77BE88E1BCBE8420040AB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Matsedel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.skaggbyran.Matsedel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A77BE88F1BCBE8420040AB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Matsedel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.skaggbyran.Matsedel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A77BE8911BCBE8420040AB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MatsedelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.skaggbyran.MatsedelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matsedel.app/Matsedel";
+			};
+			name = Debug;
+		};
+		A77BE8921BCBE8420040AB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MatsedelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.skaggbyran.MatsedelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matsedel.app/Matsedel";
+			};
+			name = Release;
+		};
+		A77BE8941BCBE8420040AB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MatsedelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.skaggbyran.MatsedelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Matsedel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A77BE8951BCBE8420040AB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MatsedelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.skaggbyran.MatsedelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Matsedel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77BE85B1BCBE8420040AB2B /* Build configuration list for PBXProject "Matsedel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77BE88B1BCBE8420040AB2B /* Debug */,
+				A77BE88C1BCBE8420040AB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77BE88D1BCBE8420040AB2B /* Build configuration list for PBXNativeTarget "Matsedel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77BE88E1BCBE8420040AB2B /* Debug */,
+				A77BE88F1BCBE8420040AB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77BE8901BCBE8420040AB2B /* Build configuration list for PBXNativeTarget "MatsedelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77BE8911BCBE8420040AB2B /* Debug */,
+				A77BE8921BCBE8420040AB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77BE8931BCBE8420040AB2B /* Build configuration list for PBXNativeTarget "MatsedelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77BE8941BCBE8420040AB2B /* Debug */,
+				A77BE8951BCBE8420040AB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77BE8581BCBE8420040AB2B /* Project object */;
+}
