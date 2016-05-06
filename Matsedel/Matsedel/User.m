@@ -74,7 +74,7 @@
 }
 
 //Vi borde göra en slags DataStorage-objekt som User och Recipe (Och ingridient på lång sikt), sparar i . Istället för att själva objekten vet hur de ska sparas. :/ eller?
-
+//Test, commit 3? :S
 
 //Den här ska initiera alla recept som en användare har idag (pga now() i sql) när han loggar in.
 //Man kan säga att denna metod hämtar saker från databasen och lägger dem i en snygg NSArray som heter recipiesArray.
